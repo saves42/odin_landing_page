@@ -7,11 +7,11 @@
     <title>Landing Page</title>
     <link href="styles/style.css" type="text/css" rel="stylesheet"/>
 </head>
-<body>
-  <header>
+<body class="grid">
+  <header id="navigation" class="drk-bg flex head">
     <h1>Header Logo</h1>
     <nav>
-        <ul>
+        <ul class="flex">
             <li>Link one</li>
             <li>Link two</li>
             <li>Link three</li>
@@ -19,17 +19,17 @@
     </nav>
   </header>  
   <main>
-    <section>
-        <div>
+    <section id="banner" class="drk-bg flex">
+        <div class="banner-box box1">
             <h2>This website is awesome</h2>
             <p>Subtext about how awesome this website is.</p>
-            <input type="button" value="Sign up">
+            <input class="btn" type="button" value="Sign up">
         </div>
-        <div>
-            <img src="" alt=""/>
+        <div class="banner-box box2">
+            <img class="small-img" src="images/josh-hild.jpg" alt=""/>
         </div>
     </section>
-    <section>
+    <section class="photos">
         <h2>Some random information</h2>
         <div>
             <img src="" alt=""/>
@@ -56,7 +56,7 @@
         <div>
             <h3>Some call to action</h3>
             <p>Sign up for something</p>
-            <input type="button" value="Sign up">
+            <input class="btn" type="button" value="Sign up">
         </div>
     </section>
   </main>
