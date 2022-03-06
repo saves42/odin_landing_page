@@ -3,10 +3,14 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: roboto;
 }
 
 /*global styles*/
 
+h1 {
+    font-weight: 700;
+}
 
 img {
     width: 100%;
@@ -90,11 +94,6 @@ li {
     width: 80%;
 }
 
-.photos-container {
-    margin: 2em auto;
-}
-
-
 
 /*photos section*/
 
@@ -146,4 +145,14 @@ li {
 footer {
     height: 10vh;
     padding: 2em 0;
+}
+
+/*font*/
+
+.italic {
+    font-style: italic;
+}
+
+.thin-font {
+    font-weight: 300;
 }
