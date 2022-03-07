@@ -103,34 +103,57 @@ li {
 }
 
 .photos-box {
-    height: 75vh;
+    margin: 2em auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 /*quote section*/
 
 #quote {
-    height: 18.75em;
+    padding: 2em 0;
     background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     
 
 }
 
 .quote-block {
-    width: 33%;
-    align-self: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+@media (min-width: 1452px) {
+    .quote-block {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .quote-author {
+        align-self: center;
+    }
+    
+
 }
 
 /*call to action*/
 
 .action-call {
     width: 60%;
-    height: 20vh;
+    padding: 2em 0;
+    height: auto;
     margin: 2em auto;
     display: flex;
     justify-content: space-around;
@@ -140,10 +163,22 @@ li {
     color: #f9faf8;
 }
 
+@media (min-width: 1452px) {
+    .action-call {
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .action-call input {
+        margin: 1em auto;
+    }
+}
+
 /*footer*/
 
 footer {
-    height: 10vh;
+    
     padding: 2em 0;
 }
 
